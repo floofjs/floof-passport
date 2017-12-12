@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Social Media Website&trade;</title>
+  </head>
+  <body>
+    <h1>Social Media Website&trade;</h1>
+    <nav>
+      <a href="/">Home</a>
+      <? if (req.user) { ?>
+        <a href="/profile">Profile</a>
+        <a href="/logout">Log Out</a>
+      <? } else { ?>
+        <a href="/login">Log In</a>
+      <? } ?>
+    </nav>
+    <div id="flashes">
+      <? for (const flash of req.flashes) { ?>
+        <div><?= flash ?></div>
+      <? } ?>
+    </div>
+    <main>
+      <div id="wrapper">
+        <? block main ?>
+      </div>
+    </main>
+  </body>
+</html>

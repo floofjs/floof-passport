@@ -1,0 +1,14 @@
+{
+  "name": "floof-passport-example-local",
+  "version": "1.0.0",
+  "description": "Example using passport-local",
+  "main": "server.js",
+  "author": "phantamanta44",
+  "license": "MIT",
+  "dependencies": {
+    "floof": "^0.0.4",
+    "floof-session": "^0.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}

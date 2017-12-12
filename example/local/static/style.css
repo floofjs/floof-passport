@@ -1,0 +1,44 @@
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw; height: 100vh;
+  padding: 48px;
+  display: flex;
+  flex-flow: column;
+}
+
+nav, h1 {
+  text-align: center;
+}
+
+main {
+  position: relative;
+  flex: 1;
+}
+
+#wrapper {
+  position: absolute;
+  top: 33.3%; left: 50%;
+  transform: translateX(-50%);
+}
+
+input, h2, #profile-details {
+  margin-bottom: 8px;
+}
+
+#name {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+#handle {
+  font-size: 18pt;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+#profile-desc {
+  font-size: 14pt;
+}

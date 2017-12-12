@@ -1,0 +1,12 @@
+{
+  "name": "floof-passport",
+  "version": "0.0.1",
+  "description": "PassportJS implementation for Floof",
+  "main": "index.js",
+  "repository": "https://github.com/floofjs/floof-passport.git",
+  "author": "phantamanta44",
+  "license": "MIT",
+  "dependencies": {
+    "floof": "^0.0.3"
+  }
+}

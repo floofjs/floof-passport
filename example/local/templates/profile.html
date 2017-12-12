@@ -1,0 +1,10 @@
+<? extends parent.html ?>
+<? def main ?>
+<div id="profile-details">
+  <span id="name"><?= req.user.name ?></span>
+  <span id="handle">@<?= req.user.username ?></span>
+</div>
+<div id="profile-desc">
+  <?= req.user.bio ?>
+</div>
+<? undef ?>
